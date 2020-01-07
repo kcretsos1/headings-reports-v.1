@@ -1,26 +1,17 @@
-# new-releases-v.3
-This project displays a customized menu of new releases added to the library catalog using PostgreSQL queries and PHP scripts. The menu organizes the new releases based on Library of Congress Classification numbers. When possible, the webpage retrieves an image of the book jacket based on the ISBN using Content Cafe.
-
-# Updates
-Version 3 includes updated css, menu, and sidebar files.
+# headings-reports-v.1
+These pages generate reports for first time names and subject headings in the library catalog. By default, the pages are set to search from week to week, however, you can set them up by other time intervals (for example from month to month). If you copy the headings into notepad and save the file, you can upload a batch search for headings in OCLC's Connexion software.
 
 ## Getting Started
 
 This code works with Sierra ILS from Innovative Interfaces Inc.
 You will need the following:
 * Sierra username account with access to SQL permissions.
-* License and account from Content Cafe, Baker and Taylor.
 * Access to a web server for hosting your pages.
 
 ### Prerequisites
 
 * pgAdmin 4
 * WampServer (for testing)
-
-### Testing
-
-Use the "results.php" file in the "test" folder to test your connection to the database.
-Customize your sidebar menu and query parameters as needed.
 
 ## License
 
